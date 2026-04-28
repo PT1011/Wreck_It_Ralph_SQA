@@ -1,8 +1,8 @@
 # Wreck_It_Ralph_SQA
 SQA Final Project - Jack and Parth
 
-#### Bug ID: BUG-01
-#### Bug Name: Test Max Health Enforced
+## Bug ID: BUG-01
+### Bug Name: Test Max Health Enforced
 #### Category: Boundary Failure
 #### Location: shop.py
 #### How to Trigger: Have health above 70, Use the health potion, observe the bug as your heath is above 100
