@@ -28,10 +28,11 @@ SQA Final Project - Jack and Parth
 #### Severity: High 
 #### Test File: from shop import Item, Player
 
-def test_buying_multiple_items():
-    """
-    Expected: They shouldn't be the same object
-    Actual: They are the same because of they way the code appends the objects as references to the memory
-    Category: Silent
-    Severity: Medium
-    """
+## Bug ID: BUG-04
+### Bug Name: Test Transfer Equipped Item 
+#### Category: State/Sequence 
+#### Location: shop.py 
+#### How to Trigger: Try to transfer an item from one player to another and observe how the item stays in player 1 inventory 
+#### Impact: Infinite duplication glitches can occur, breaks games economy 
+#### Severity: Critical 
+#### Test File: from shop import Item, Player
