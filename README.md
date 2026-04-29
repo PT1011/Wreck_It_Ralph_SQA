@@ -24,7 +24,9 @@ SQA Final Project - Jack and Parth
 #### Category: Silent 
 #### Location: shop.py 
 #### How to Trigger: Try to buy mupltiple of the same item, observe the bug 
-#### Impact: 
+#### Impact: If a player wants to buy two of the same item they recieve one copy of the item and lose money on the other one they wanted to buy 
+#### Severity: High 
+#### Test File: from shop import Item, Player
 
 def test_buying_multiple_items():
     """
